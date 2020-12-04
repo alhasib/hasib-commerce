@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'p*4$b--7f*+3&@pettd=^&_xuq2@0ma47%qr^=w^e6(s@&y6#@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hasib-commerce.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
